@@ -16,7 +16,12 @@ ScuiSample.mainPage = SC.Page.design({
     dragView:SC.View.design(SCUI.Mobility,{
 		    layout:{centerX:0,bottom:40,width:100,height:100},
 				backgroundColor:'red',
-		    //childViews:'  '.w(),
+		    childViews:'size'.w(),
+				size:SC.View.design(SCUI.Resizable,{
+				    layout:{right:0,bottom:0,width:20,height:20},
+						backgroundColor:'blue',
+				    //childViews:'  '.w(),
+				})
 		}),
 		dragView2:SC.View.design(SCUI.Mobility,{
 		    layout:{centerX:120,bottom:40,width:100,height:100},
