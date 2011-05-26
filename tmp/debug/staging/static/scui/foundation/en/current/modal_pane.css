@@ -1,0 +1,25 @@
+.picker-resizable-handle {
+  width: 16px;
+  height: 16px;
+  background: url('/static/scui/foundation/en/current/source/images/lower-right-drag.png?1306372987') no-repeat;
+}
+.header {
+  background: url('') repeat-x;
+}
+.header .modal-title {
+  top: 10px !important;
+  font-size: 14px !important;
+  color: #DDD !important;
+}
+.header .modal-close-icon,
+.header .modal-fullscreen-icon {
+  background-color: none !important;
+}
+.header .modal-close-icon {
+  left: 10px !important;
+  background: url('/static/scui/foundation/en/current/source/images/red-ball.png?1306372987') no-repeat;
+}
+.header .modal-fullscreen-icon {
+  left: 32px !important;
+  background: url('/static/scui/foundation/en/current/source/images/green-ball.png?1306372987') no-repeat;
+}

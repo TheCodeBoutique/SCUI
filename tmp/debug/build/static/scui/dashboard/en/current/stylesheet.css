@@ -1,0 +1,31 @@
+/* line 2, tmp/chance/c0120324857e6cb4ca7677e8854d5866.scss */
+.scui-widget-delete-handle-view {
+  background: red;
+}
+
+/* line 6, tmp/chance/c0120324857e6cb4ca7677e8854d5866.scss */
+.scui-widget-edit-handle-view {
+  background: yellow;
+}
+
+/* line 10, tmp/chance/c0120324857e6cb4ca7677e8854d5866.scss */
+.scui-widget-container-view {
+  background: gray;
+}
+
+/* line 2, tmp/chance/dcfacb9da9879385241697e9f2935d48.scss */
+.sc-view.scui-clock-widget-view {
+  border: 30px #888 solid;
+  background: black;
+  -webkit-border-radius: 40px;
+  -moz-border-radius: 40px;
+  color: red;
+}
+
+/* line 10, tmp/chance/dcfacb9da9879385241697e9f2935d48.scss */
+.scui-clock-widget-view .sc-label-view.sc-regular-size {
+  font-size: 48px !important;
+  text-align: center !important;
+  line-height: 1.0;
+}
+
